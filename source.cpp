@@ -16,6 +16,10 @@ int main()
 	cin >> phepToan;
 	switch (phepToan)
 	{
+         case '+':
+		cout<<"tong = "<<tong(a,b);
+		break;
+
 	case '-':
 		cout << "hieu= " << hieu(a, b);
 		break;
