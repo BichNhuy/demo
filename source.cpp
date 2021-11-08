@@ -14,6 +14,15 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	switch (phepToan)
+	{
+	case '-':
+		cout << "hieu= " << hieu(a, b);
+		break;
+	default:
+		cout << "Chon sai phep toan";
+		break;
+	}
 	system("pause");
 	return 0;
 }
