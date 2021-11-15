@@ -19,6 +19,9 @@ int main()
 	case '-':
 		cout << "hieu= " << hieu(a, b);
 		break;
+	case '*':
+		cout << "tich= " << tich(a, b);
+		break;
 	default:
 		cout << "Chon sai phep toan";
 		break;
