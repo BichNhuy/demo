@@ -4,6 +4,7 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
+bool chanle(int a, int b);
 int main()
 {
 	int a, b;
@@ -23,9 +24,17 @@ int main()
 	case '-':
 		cout << "hieu= " << hieu(a, b);
 		break;
+<<<<<<< HEAD
 	case '*':
 		cout << "tich= " << tich(a, b);
 		break;
+=======
+  	case 'x':
+		cout << "chanle= " << chanle(a, b);
+		break;
+
+
+>>>>>>> chanle
 	default:
 		cout << "Chon sai phep toan";
 		break;
