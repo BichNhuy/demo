@@ -24,13 +24,17 @@ int main()
 	case '-':
 		cout << "hieu= " << hieu(a, b);
 		break;
+<<<<<<< HEAD
 	case '*':
 		cout << "tich= " << tich(a, b);
 		break;
-
+=======
   	case 'x':
 		cout << "chanle= " << chanle(a, b);
 		break;
+
+
+>>>>>>> chanle
 	default:
 		cout << "Chon sai phep toan";
 		break;
